@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   
+
+    <meta name="viewport" content="width=device-witdh, initial-scale=1.0"/>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <style>
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div id="myPoll"></div>
+
+    <script src="plugin.js"></script>
+    <script>
+    (function(){
+        $('#myPoll').nupoll({
+            buttonText: "Send",
+            question: "Which is your favorite team",
+            categories: ["Real Madrid", "Barcelona", "Bayern Munich", "Juventus"]
+        });
+    })();     
+    </script>
+
+</body>
+
+</html>
